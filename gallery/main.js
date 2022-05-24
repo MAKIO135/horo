@@ -137,15 +137,11 @@ fetch('./data.json').then(r => r.json()).then(tokens => {
     gui.addPanel({label: 'Filter'})
         .addStringInput(filtersProxy, 'wandering', {
             label: 'Wandering',
-            presets: ['All', 'The Meander', 'The Detour', 'The Drift', 'The Exploration', 'The Journey', 'The Excursion', 'The Adventure', 'The Distraction'],
-        })
-        .addStringInput(filtersProxy, 'fitFormat', {
-            label: 'Format',
-            presets: ['All', '2:3', '3:2', 'Square', '9:16', '16:9'],
+            presets: ['All', 'The Drift', 'The Exploration', 'The Journey', 'The Adventure'],
         })
         .addStringInput(filtersProxy, 'composition', {
             label: 'Composition',
-            presets: ['All', 'The Center', 'The Block', 'The Buildings', 'The Limits', 'The District'],
+            presets: ['All', 'The Center','The Block','The Buildings','The Limits','The Alleys','The Grid','The District'],
         })
         .addNumberInput(filtersProxy, 'palette', {
             label: 'Palette [0:All -> 55]',
