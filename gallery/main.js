@@ -23,8 +23,6 @@ function calculateFeatures(tokenData) {
     let linecap = random() < .5
 
     return {
-        'Hash': H,
-
         'Wandering': ['The Drift', 'The Exploration', 'The Journey', 'The Adventure'][selectedFlowfield],
         'Composition': ['The Center','The Block','The Buildings','The Limits','The Alleys','The Grid','The District'][selectedClip],
         'Palette': paletteId,
