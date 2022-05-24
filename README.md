@@ -1,2 +1,2 @@
-# horo
-https://makio135.com/horo
+# Hōrō
+https://makio135.com/horo/
